@@ -1,44 +1,44 @@
 [
-  {
-    "id": 1,
-    "name": "Buddy",
-    "type": "dog",
-    "age": 3,
-    "available": true
-  },
-  {
-    "id": 2,
-    "name": "Whiskers",
-    "type": "cat",
-    "age": 2,
-    "available": true
-  },
-  {
-    "id": 3,
-    "name": "Rex",
-    "type": "dog",
-    "age": 7,
-    "available": false
-  },
-  {
-    "id": 4,
-    "name": "Luna",
-    "type": "cat",
-    "age": 1,
-    "available": true
-  },
-  {
-    "id": 5,
-    "name": "Thumper",
-    "type": "rabbit",
-    "age": 4,
-    "available": true
-  },
-  {
-    "id": 6,
-    "name": "Max",
-    "type": "dog",
-    "age": 5,
-    "available": false
-  }
+    {
+        "id": 1,
+        "name": "Buddy",
+        "type": "dog",
+        "age": 3,
+        "available": false
+    },
+    {
+        "id": 2,
+        "name": "Whiskers",
+        "type": "cat",
+        "age": 2,
+        "available": true
+    },
+    {
+        "id": 3,
+        "name": "Rex",
+        "type": "dog",
+        "age": 7,
+        "available": false
+    },
+    {
+        "id": 4,
+        "name": "Luna",
+        "type": "cat",
+        "age": 1,
+        "available": true
+    },
+    {
+        "id": 5,
+        "name": "Thumper",
+        "type": "rabbit",
+        "age": 4,
+        "available": true
+    },
+    {
+        "id": 6,
+        "name": "Max",
+        "type": "dog",
+        "age": 5,
+        "available": false
+    }
 ]

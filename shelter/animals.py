@@ -1,14 +1,15 @@
 import random
+import json
 
 def load_animals(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
-        animals = file
+        animals = json.load(file)
     return animals
 
 
 def save_animals(file_path, animals):
     with open(file_path, "w", encoding="utf-8") as file:
-        file.write(animals, indent=4)
+        json.dump(animals, file, indent=4)
 
 
 def show_animals(animals):
@@ -23,7 +24,7 @@ def show_animals(animals):
 ]
     for animal in animals:
         adjective = random.choice(animal_adjectives)
-        print(f"{animal["name"]}, a {animal["age"]} years old, {adjective} {animal["type"]}")
+        print(f"{animal["name"]}, a {animal["age"]} year(s) old {adjective} {animal["type"]}. ID: {animal["id"]}")
 
 
 def get_available_animals(animals):
